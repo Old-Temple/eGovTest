@@ -1,0 +1,26 @@
+package test;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
+
+@Component
+public class myComponent {
+	private final static Logger LOGGER = LoggerFactory.getLogger(myComponent.class);
+	
+	@Autowired private Environment environment;
+	@Autowired private ActiveProfile activeProfile;
+	
+	public void printProfiles() {
+		String[] profiles = environment.getActiveProfiles();
+		for (String profile : profiles) {
+			LOGGER.info(profile);
+		}
+	}
+	
+	public void printRootPath() {
+		LOGGER.info(activeProfile.getRootPath());
+	}
+}

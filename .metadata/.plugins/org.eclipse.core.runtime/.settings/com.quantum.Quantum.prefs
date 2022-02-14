@@ -1,0 +1,3 @@
+com.quantum.actions.BookmarkSelectionUtil.bookmark=OracleTestDB
+eclipse.preferences.version=1
+quantum.dialogs.bookmarkwizard.path=C\:\\eGovFramework\\eGovFrameDev-3.10.0-64bit\\workspace\\Test\\src\\main\\webapp\\WEB-INF\\lib\\ojdbc8.jar
