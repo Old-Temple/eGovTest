@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0</version>
 	<name>Test</name>
-	<url>http://www.egovframe.go.kr</url>
+	<url>http://www.egovframe.go.kr/maven</url>
 
 	<licenses>
 		<license>
@@ -552,6 +552,12 @@
 					<artifactId>log4j-over-slf4j</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.0.0.RELEASE</version>
 		</dependency>
 		
 	</dependencies>
