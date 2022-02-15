@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0</version>
 	<name>Test</name>
-	<url>http://www.egovframe.go.kr/maven</url>
+	<url>http://maven.egovframe.kr:8080/maven</url>
 
 	<licenses>
 		<license>
