@@ -3671,3 +3671,9 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.ui 2 2 2022-02-15 13:16:42.948
 !MESSAGE Invalid preference category path: egovframework.dev.imp.confmngt.preferences.emptyconfpreperencepage (bundle: egovframework.rte.rdt, page: egovframework.rte.rdt.plugin.preferences.RdtPreferencePage)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-02-15 15:43:39.498
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-02-15 15:45:10.392
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
