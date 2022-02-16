@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="SessionId"/>
+		<item key="selection" value="mojo"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="mojo"/>
+			<item value="settings"/>
+			<item value="servers"/>
+			<item value="mirror"/>
+			<item value="egov"/>
+			<item value="webmvc"/>
+			<item value="webmv"/>
 			<item value="sessionid"/>
 			<item value="EgovUserDetailsHelper"/>
 			<item value="username"/>
@@ -16,13 +23,6 @@
 			<item value="role"/>
 			<item value="85486D65AEFE9EC8C6F02C3BA42D94FB"/>
 			<item value="security"/>
-			<item value="debug"/>
-			<item value="INSERT INTO COMTSUSERSUMMARY"/>
-			<item value="filter"/>
-			<item value="loginfo"/>
-			<item value="history"/>
-			<item value="warn"/>
-			<item value="rte.fdl.logging"/>
 		</list>
 		<list key="replacehistory">
 		</list>

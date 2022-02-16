@@ -15,3 +15,8 @@
 0:0:0:0:0:0:0:1 - - [15/Feb/2022:13:11:40 +0900] "GET /Test/EgovTop.do HTTP/1.1" 200 4681
 0:0:0:0:0:0:0:1 - - [15/Feb/2022:13:11:40 +0900] "GET /favicon.ico HTTP/1.1" 404 818
 127.0.0.1 - - [15/Feb/2022:15:47:38 +0900] "GET / HTTP/1.1" 404 807
+127.0.0.1 - - [15/Feb/2022:16:16:59 +0900] "PUT /manager/deploy?path=%2FTest&war=&update=true HTTP/1.1" 405 735
+127.0.0.1 - - [15/Feb/2022:16:17:00 +0900] "PUT /manager/deploy?path=%2FTest&war=&update=true HTTP/1.1" 405 735
+127.0.0.1 - - [15/Feb/2022:16:30:21 +0900] "GET / HTTP/1.1" 404 807
+127.0.0.1 - - [15/Feb/2022:17:06:06 +0900] "PUT /manager/deploy?path=%2FTest&war=&update=true HTTP/1.1" 405 735
+127.0.0.1 - - [15/Feb/2022:17:06:07 +0900] "PUT /manager/deploy?path=%2FTest&war=&update=true HTTP/1.1" 405 735
