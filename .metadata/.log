@@ -4677,3 +4677,67 @@ Caused by: java.io.FileNotFoundException: C:\Users\old_t\.m2\repository\kr\go\gp
 	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.resetZipFile(JavaEEBinaryComponentLoadAdapter.java:67)
 	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.<init>(JavaEEBinaryComponentLoadAdapter.java:51)
 	... 24 more
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2022-02-16 13:51:09.884
+!MESSAGE Exception when synchronizing
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.handleFileContentChanged(ResourceTextFileBuffer.java:458)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer$FileSynchronizer$2.execute(ResourceFileBuffer.java:151)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer$SafeFileChange.run(ResourceFileBuffer.java:86)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer$FileSynchronizer.resourceChanged(ResourceFileBuffer.java:186)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2306)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility$1.run(ProgressMonitorUtility.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.290
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.291
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.291
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.291
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.292
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.292
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.292
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.293
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.293
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.294
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.294
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.295
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.295
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.296
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-02-16 13:56:42.296
+!MESSAGE C:\eGovFramework\eGovFrameDev-3.10.0-64bit\workspace\Test\lib\libgpkiapi_jni-1.4.0.0.jar is not on its project's build path
