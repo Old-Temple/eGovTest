@@ -199,3 +199,8 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2022-02-15 16:25:46,928 [Worker-208: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Test
 2022-02-15 16:26:31,185 [Worker-281: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Test
 2022-02-15 16:26:31,185 [Worker-281: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Test
+2022-02-16 09:28:19,058 [Worker-15: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Test
+2022-02-16 09:28:26,747 [Worker-48: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Test
+2022-02-16 09:28:26,748 [Worker-48: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Test
+2022-02-16 09:36:57,759 [Worker-49: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Test
+2022-02-16 09:36:57,759 [Worker-49: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Test
