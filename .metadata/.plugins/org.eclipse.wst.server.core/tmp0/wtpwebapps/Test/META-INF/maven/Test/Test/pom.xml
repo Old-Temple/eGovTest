@@ -28,6 +28,10 @@
 
 	<repositories>
 		<repository>
+			<id>localrepository</id>
+			<url>file://${pom.basedir}/lib/</url>
+		</repository>
+		<repository>
 			<id>mvn2s</id>
 			<url>https://repo1.maven.org/maven2/</url>
 			<releases>
